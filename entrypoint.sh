@@ -25,3 +25,5 @@ RESPONSE=$(curl -s -X POST \
  "https://graph.facebook.com/v2.8/$APP_ID/subscriptions")
 
 echo "Graph API: $RESPONSE"
+
+fg
