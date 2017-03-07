@@ -1,3 +1,5 @@
+set -m
+
 echo "Starting ngrok"
 ./ngrok start -config ngrok.yml bot &
 
