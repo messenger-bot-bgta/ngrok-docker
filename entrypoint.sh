@@ -13,14 +13,14 @@ echo "Public url: $URL"
 echo "Configuring Webhook..."
 
 echo "object=page"
-echo "callback_url=$URL"
+echo "callback_url=$URL/bot"
 echo "fields=$FIELDS"
 echo "verify_token=$VERIFY_TOKEN"
 echo "access_token=$APP_ID%7C$APP_SECRET"
 
 RESPONSE=$(curl -s -X POST \
  -d "object=page" \
- -d "callback_url=$URL" \
+ -d "callback_url=$URL/bot" \
  -d "fields=$FIELDS" \
  -d "verify_token=$VERIFY_TOKEN" \
  -d "access_token=$APP_ID%7C$APP_SECRET" \
