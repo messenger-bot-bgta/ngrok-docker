@@ -3,8 +3,8 @@ set -m
 echo "Starting ngrok"
 ./ngrok start -config ngrok.yml bot &
 
-echo "Ngrok started waiting 3 seconds..."
-sleep 3
+echo "Ngrok started waiting 5 seconds..."
+sleep 5
 
 URL=$(curl -s http://localhost:4040/api/tunnels/bot | jq -r .public_url)
 
