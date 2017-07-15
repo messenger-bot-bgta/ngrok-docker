@@ -2,6 +2,6 @@ console_ui: fasle
 web_addr: 0.0.0.0:4040
 tunnels:
   bot:
-    addr: bot:3000
+    addr: app:3000
     bind_tls: true
     proto: http
