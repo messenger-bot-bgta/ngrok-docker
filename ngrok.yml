@@ -1,4 +1,4 @@
-console_ui: fasle
+console_ui: false
 web_addr: 0.0.0.0:4040
 tunnels:
   bot:
